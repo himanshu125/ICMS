@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>ICMS IIIT BGP</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/family=Lato">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {background-color: #f44336;} /* Red */ 
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <center><img src="img/logo.png" height=130px width=1520px></center>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    
+    <a href="#" class="w3-bar-item w3-button w3-padding-large"><h4>HOME</h4></a>
+    <a href="admin/" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h4>Admin</h4></a>
+    <a href="#sa" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h4>Student Affairs Board</h4></a>
+    <a href="#fa" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h4>Faculty Affairs Board</h4></a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More"><h4>Raise Complaint</h4>
+        <!--<i class="fa fa-caret-down"></i>--></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="stud/" class="w3-bar-item w3-button">Student</a>
+        <a href="fac/" class="w3-bar-item w3-button">Faculty & Staff</a>
+     <!--   <a href="http://localhost/cms/staff/" class="w3-bar-item w3-button">Staff</a>-->
+        <a href="others/" class="w3-bar-item w3-button">Others</a>
+      </div>
+      
+    </div>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h4>About ICMS</h4></a>
+  <a href="#developers" class="w3-bar-item w3-button w3-padding-large w3-hide-small"><h4>About Developers</h4></a>
+	</div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images --><br><br><br><br><br><br><br>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/la.png" style="width:1520px;height:450px;">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/lo.png" style="width:1520px;height:450px;">
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="img/a4.png" style="width:1520px;height:450px;">
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="img/a3.jpg" style="width:1520px;height:450px;">
+  </div>
+
+  <marquee direction="right"><h1 style="color :   #b30059 ; ">Internal Complaint Management System</h1></marquee>
+  <!-- The Student Affairs Section -->
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="sa">
+  <br><br><br><br><br><br><br>
+    <h2 class="w3-wide">About Student Affairs Board</h2>
+    <a href="sa/" class="button button2"><h4>Student Affairs Board Login</h4></a>
+    <p class="w3-opacity"><i>Objectives, Roles and Responsibilities of Student Affairs Board</i></p>
+    <p class="w3-justify">We are here to prevent discrimination and sexual harassment, by promoting gender amity among students. We make recommendations to the management for changes/elaborations in the Rules for students in the Prospectus and the Bye-Laws, to make them gender just and to lay down procedures for the prohibition, resolution, settlement and prosecution of acts of discrimination and sexual harassment, by the students and the employees. We deal with cases of discrimination and sexual harassment against women, in a time bound manner, aiming at ensuring support services to the victimized and termination of the harassment. We also recommend appropriate punitive action against the guilty party to the Management.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+    	<img src="img/dheeraj1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      	<p>Dr. Dheeraj Kumar Sinha</p>
+      </div>
+     <!-- <div class="w3-third">
+        <p>Name</p>
+        <img src="img/user.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+    -->
+      <div class="w3-third">
+        <img src="img/user.jpg" class="w3-round" alt="Random Name" style="width:67%">
+      	<p><br>Abhilasha Bharti</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Faculty Affairs Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="fa">
+    <br><br><br><br><br><br><br>
+    <h2 class="w3-wide">About Faculty Affairs Board</h2>
+    <a href="fa/" class="button button2"><h4>Faculty Affairs Board Login</h4></a>
+    <p class="w3-opacity"><i>Objectives, Roles and Responsibilities of Faculty Affairs Board</i></p>
+    <p class="w3-justify">Faculty affairs Board resolves problem related with faculty and staff memebers. The faculty member is given the student’s letter of complaint and invited to provide the ad hoc committee with a written response. The committee reviews both statements and is given access to any other written documents relevant to the complaint. It will normally interview both the grievant and the faculty member and may, at its discretion, ask others to provide testimony.</p>
+    <div class="w3-row w3-padding-32">
+    <!--  <div class="w3-third">
+        <p>Name</p>
+        <img src="img/user.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+    -->
+      <div class="w3-third">
+         <img src="img/sanjay1.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      	<p>Dr. Sanjay Kumar</p>
+      </div>
+      <!--
+      <div class="w3-third">
+        <p>Name</p>
+        <img src="img/user.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    -->
+    </div>
+  </div>
+
+  <!-- The About Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+  	<br><br><br><br><br><br><br>
+    <h2 class="w3-wide">About ICMS</h2>
+    <p class="w3-opacity"><i>We will hear you!!</i></p>
+    <p class="w3-justify">Internal Complaint Management System is an online portal that helps in managing of online user complains. It provides a comprehensive platform to resolve these complaints with ease. Its features include an online complaint box where user can drop in their complaints so that the service provider can access, analyse and respond the user issues. The objective of the web complaint management software is to get away with the hassle faced in dealing with the issues that are faced in our college. The software is an excellent solution to resolve issues in more managed and streamlined manner. It saves time in resolving issues easily. It is a intranet service website that we are providing, so that only students of IIIT Bhagalpur can access.<!-- This helps in building user loyalty by efficient handling of their complaints and you can achieve a sustainable complaint management database.--></p>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px" id="developers">
+    <br><br><br><br><br><br><br>
+    <h2 class="w3-wide">About Developers</h2>
+    <p class="w3-opacity"><i>Intro</i></p>
+    <p class="w3-justify"></p>
+    <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+        <img src="img/abhishek.jpeg" class="w3-round w3-margin-bottom" alt="Abhishek" style="width:70%">
+        <p><b>Abhishek Kumar</b></p>
+    </div>
+    <div class="w3-third">
+        <img src="img/himanshu.jpg" class="w3-round w3-margin-bottom" alt="Himanshu" style="width:60%">
+        <p><b>Himanshu Ranjan</b></p>
+    </div>
+    <div class="w3-third">
+        <img src="img/suraj.jpg" class="w3-round w3-margin-bottom" alt="Suraj" style="width:60%">
+        <p><b>Suraj Kumar</b></p>
+    </div>
+    <div class="w3-third">
+        <img src="img/hitesh.jpg" class="w3-round w3-margin-bottom" alt="Hitesh" style="width:70%">
+        <p><b>Hitesh Kumar Sahu</b></p>
+    </div>
+    <!--<div class="w3-third">
+        <img src="img/santosh.jpg" class="w3-round w3-margin-bottom" alt="Santosh" style="width:73%">
+        <p><b>Santosh Kumar</b></p>
+    </div>
+    <div class="w3-third">
+        <img src="img/nitish.jpg" class="w3-round w3-margin-bottom" alt="Nitish" style="width:60%">
+        <p><b>Nitish Kumar(Project Leader)</b></p>
+    </div>
+    </div>-->
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
